@@ -1,0 +1,18 @@
+body {
+    margin: 0px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+}
+
+footer img,p{
+    margin: 0;
+}
