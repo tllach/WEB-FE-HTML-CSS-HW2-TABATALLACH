@@ -3,7 +3,68 @@ body {
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
+header {
+    background-color: #131c90;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
 
+aside {
+    grid-column: 1;
+    background-color: #f4f4f4;
+    padding: 100px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #10a829;
+    grid-gap: 0px;
+    padding: 0px;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 117, 117, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border: 1px solid #fff;
+}
+
+.aside{
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    background-color: #bcbcbc;
+    padding: 0px;
+    text-align: center;
+}
+
+.title-section{
+    grid-column: 2 / 5;
+    background-color: #ffbf00;
+}
+
+.product-photo-section{
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+    background-color: #00ff00;
+}
+
+.product-description-section{
+    grid-column: 3 / 5;
+    background-color: #0000ff;
+}
+
+.product-model-section{
+    grid-column: 3/4;
+    background-color: #ff00ff;
+}
+
+.product-shop-section{
+    grid-column: 4/5;
+    background-color: #00ffff;
+}
 
 footer {
     background-color: #000000;
