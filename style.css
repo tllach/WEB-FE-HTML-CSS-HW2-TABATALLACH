@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "ArcadeFont";
+    src: url("fonts/ARCADECLASSIC.TTF");
+}
+
 body {
     margin: 0px;
     font-family: "Lucida Console", "Courier New", monospace;
@@ -12,6 +17,7 @@ header {
 
 aside {
     grid-column: 1;
+    font-family: "ArcadeFont", "Courier New", monospace;
     background-color: #f4f4f4;
     padding: 100px;
 }
@@ -25,10 +31,8 @@ aside {
 }
 
 .grid-container > div {
-    background-color: rgba(255, 117, 117, 0.8);
     text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
+    padding: 15px;
     border: 1px solid #fff;
 }
 
@@ -38,6 +42,20 @@ aside {
     background-color: #bcbcbc;
     padding: 0px;
     text-align: center;
+}
+
+.aside ul{
+    padding: 0px;
+}
+
+.aside li{
+    list-style-type: none;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.aside h3{
+
 }
 
 .title-section{
@@ -67,6 +85,7 @@ aside {
 }
 
 footer {
+    font-family: "Lucida Console", "Courier New", monospace;
     background-color: #000000;
     color: #fff;
     text-align: center;
