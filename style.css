@@ -152,6 +152,63 @@ aside li{
     color: #fff;
 }
 
+/* FORM */
+
+.grid-container-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ffffff;
+    padding: 0px;
+}
+
+.title-section{
+    grid-column: 1;
+    font-family: "ArcadeFont", "Courier New", monospace;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15rpx;
+}
+
+.title-section img{
+    width: 300px;
+    height: 80%;
+    border: 1px solid #000;
+    margin: 10px;
+}
+
+.title-section p{
+    margin: 10px 30px;
+}
+
+
+.contact-form-section{
+    grid-column: 2;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "ArcadeFont", "Courier New", monospace;
+}
+
+.contact-form-section div{
+    margin: 30px 0px;
+}
+
+input[type=submit] {
+    background-color: #04aa2e;
+    color: white;
+    padding: 12px 20px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
 
 footer {
     font-family: "Lucida Console", "Courier New", monospace;

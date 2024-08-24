@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html id="main">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Good Old Electronics Devices</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Contact Forms</h1>
+        </header>
+        <main>
+            <div class="grid-container-form">
+                <div class="title-section">
+                    <img src="images/Camara.png" alt="Nikon FM2 35mm SLR Film Camera">
+                    <h2>Nikon FM2 35mm SLR Film Camera</h2>
+                    <p>The Nikon FM2 has a classic, timeless design, with a clean, functional layout. It often features a black or chrome finish, with the black model being particularly sought after. The camera's body is compact, with a pleasing weight that balances well with a variety of lenses.</p>
+                    <p>The FM2 is revered for its reliability, even in extreme conditions Its mechanical nature means it can operate without batteries (except for the light meter), making it a dependable choice for outdoor and travel photography.</p>
+                </div>
+                <div class="contact-form-section">
+                    <form action="contact.php" method="post">
+                        <div>
+                            <label for="name">Full Name:</label>
+                            <br>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div>
+                            <label for="email">Email Address:</label>
+                            <br>
+                            <input type="email" id="email" name="email" pattern="[a-zA-Z0-9]+@[a-zA-Z]+\.com" required>
+                        </div>
+                        <div>
+                            <label for="phone">Phone:</label>
+                            <br>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div>
+                            <label for="requierment-text">Explain us what information you want about the product!</label>
+                            <br>
+                            <textarea id="requierment-text" name="" rows="4" maxlength="250"></textarea>
+                        </div>
+                        <input type="submit" value="Submit"></input>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Tabata Llach Bruges. All rights reserved.</p>
+            <br>
+            <a href="https://www.linkedin.com/in/tllach/"><img src = "images/linkedin_icon.svg" alt="linkedin"/></a>
+            <a href="https://github.com/tllach"><img src="images/github_icon.svg" alt="github"></a>
+        </footer>
+    </body>
+</html>
