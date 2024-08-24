@@ -25,62 +25,86 @@ aside {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: #10a829;
+    background-color: #ffffff;
     grid-gap: 0px;
     padding: 0px;
 }
 
 .grid-container > div {
     text-align: center;
-    padding: 15px;
-    border: 1px solid #fff;
 }
 
-.aside{
+aside{
     grid-column: 1 / 2;
     grid-row: 1 / 4;
-    background-color: #bcbcbc;
+    background-color: #ececec;
     padding: 0px;
     text-align: center;
 }
 
-.aside ul{
+#black-box{
+    background-color: #000;
+    padding: 0.3px;
+}
+
+aside h3{
+    margin: 30px 0px 30px 0px;
+}
+
+aside ul{
     padding: 0px;
 }
 
-.aside li{
+aside li{
     list-style-type: none;
-    padding: 10px;
-    border-bottom: 1px solid #fff;
-}
-
-.aside h3{
-
+    padding: 20px 0px;
+    border-bottom: 2px solid #fff;
 }
 
 .title-section{
     grid-column: 2 / 5;
+    font-family: "ArcadeFont", "Courier New", monospace;
     background-color: #ffbf00;
 }
 
 .product-photo-section{
     grid-column: 2 / 3;
     grid-row: 2 / 4;
-    background-color: #00ff00;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #fff;
+}
+
+.product-photo-section img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    margin-bottom: 2px;
+    object-fit: contain;
 }
 
 .product-description-section{
     grid-column: 3 / 5;
-    background-color: #0000ff;
+    background-color: #ececec;
+    border: 3px solid #fff;
+    font-family: "ArcadeFont", "Courier New", monospace;
+    font-size: 15px;
+    padding: 25px;
+}
+
+.product-description-section p{
+    text-align: justify;
 }
 
 .product-model-section{
     grid-column: 3/4;
+    border: 3px solid #fff;
     background-color: #ff00ff;
 }
 
 .product-shop-section{
     grid-column: 4/5;
+    border: 3px solid #fff;
     background-color: #00ffff;
 }
 
