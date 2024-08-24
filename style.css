@@ -161,7 +161,7 @@ aside li{
     padding: 0px;
 }
 
-.title-section{
+.title-section-form{
     grid-column: 1;
     font-family: "ArcadeFont", "Courier New", monospace;
     background-color: rgb(255, 255, 255);
