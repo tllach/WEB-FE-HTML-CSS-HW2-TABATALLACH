@@ -171,14 +171,14 @@ aside li{
     font-size: 15rpx;
 }
 
-.title-section img{
+.title-section-form img{
     width: 300px;
     height: 80%;
     border: 1px solid #000;
     margin: 10px;
 }
 
-.title-section p{
+.title-section-form p{
     margin: 10px 30px;
 }
 
